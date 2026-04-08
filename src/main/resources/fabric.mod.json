@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "fixifiedtranslator",
+	"version": "${version}",
+	"name": "FixifiedTranslator",
+	"description": "Advanced chat translator with auto-detection. Translate any message with one click! Supports 35+ languages via DeepL API.\n\n🇷🇺 Продвинутый переводчик чата с автоопределением. Переводи любые сообщения в один клик! Поддержка 35+ языков через DeepL API.\n\n💬 Click [Translate] on any message\n🔤 Use /trans <text> for quick translation\n🌍 Auto language detection\n⚙️ Choose your target language\n\nby Fixified_",
+	"authors": [
+		"Fixified_"
+	],
+	"contact": {
+		"homepage": "https://github.com/fixifiedtranslator/fixifiedtranslator"
+	},
+	"license": "MIT",
+	"icon": "assets/fixifiedtranslator/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"fixifiedtranslator.TranslatorMod"
+		],
+		"modmenu": [
+			"fixifiedtranslator.ModMenuIntegration"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"fabric": "*",
+		"minecraft": "~1.21.11",
+		"java": ">=21"
+	},
+	"suggests": {
+		"modmenu": "*"
+	}
+}

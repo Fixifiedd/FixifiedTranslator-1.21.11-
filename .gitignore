@@ -1,0 +1,28 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.settings/
+.classpath
+.project
+bin/
+run/
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Fabric
+*.log
+
+# Build artifacts
+*.jar
+!libs/*.jar

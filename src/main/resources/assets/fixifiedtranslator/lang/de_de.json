@@ -1,0 +1,12 @@
+{
+  "fixifiedtranslator.translate_button": "[🇩🇪 Übersetzen]",
+  "fixifiedtranslator.config.title": "FixifiedTranslator v1.2.0",
+  "fixifiedtranslator.config.apikey": "API-Schlüssel",
+  "fixifiedtranslator.config.test": "Testen",
+  "fixifiedtranslator.config.save": "Speichern",
+  "fixifiedtranslator.config.language": "Sprache",
+  "fixifiedtranslator.error.preferred_language_not_set": "Sprache in Einstellungen setzen!",
+  "fixifiedtranslator.translation.translated": "Übersetzt: %s",
+  "fixifiedtranslator.config.test_success": "✓ OK",
+  "fixifiedtranslator.config.test_failed": "✗ Fehler"
+}
